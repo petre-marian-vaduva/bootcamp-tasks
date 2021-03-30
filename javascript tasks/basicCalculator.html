@@ -1,0 +1,47 @@
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BasicCalculator</title>
+        <link rel="stylesheet" href="basicCalculator.css">
+    </head>
+
+<body>
+    <div class=title><span id="basicCalculator">Basic Calculator</span></div>
+    <table border="1">
+        <tr>
+            <td colspan="3"><input type="text" id="result" /></td>
+            <td><input type="button" value="c" onclick="clearDisplay()" /> </td>
+        </tr>
+        <tr><span id="myResult">Result</span>
+            <td><input type="button" value="1" onclick="displayValue('1')" /> </td>
+            <td><input type="button" value="2" onclick="displayValue('2')" /> </td>
+            <td><input type="button" value="3" onclick="displayValue('3')" /> </td>
+            <td><input type="button" value="/" onclick="displayValue('/')" /> </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="displayValue('4')" /> </td>
+            <td><input type="button" value="5" onclick="displayValue('5')" /> </td>
+            <td><input type="button" value="6" onclick="displayValue('6')" /> </td>
+            <td><input type="button" value="-" onclick="displayValue('-')" /> </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="7" onclick="displayValue('7')" /> </td>
+            <td><input type="button" value="8" onclick="displayValue('8')" /> </td>
+            <td><input type="button" value="9" onclick="displayValue('9')" /> </td>
+            <td><input type="button" value="+" onclick="displayValue('+')" /> </td>
+        </tr>
+        <tr>
+            <td><input type="button" value="." onclick="displayValue('.')" /> </td>
+            <td><input type="button" value="0" onclick="displayValue('0')" /> </td>
+            <td><input type="button" value="=" onclick="solve()" /> </td>
+            <td><input type="button" value="*" onclick="displayValue('*')" /> </td>
+        </tr>
+    </table>
+
+    <script src="basicCalculator.js"></script>
+</body>
+
+</html>

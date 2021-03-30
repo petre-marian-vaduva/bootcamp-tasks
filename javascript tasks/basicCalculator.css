@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+
+body {
+    background-color: rgb(230, 218, 218) ;
+    font-family: 'New Tegomin', serif;
+}
+
+.title{
+margin-bottom: 10px;
+text-align:center;
+width: 425px;
+color:green;
+border: solid black 4px;
+}
+
+#myResult{
+   color: black;
+   font-size: large;
+   font-weight: bold;
+}
+
+#basicCalculator {
+   color: black;
+   font-size: large;
+   font-weight: bold;
+}
+
+input[type="button"]
+{
+background-color:yellow;
+color: black;
+
+width:100px;
+border-radius: 12px;
+}
+
+input[type="text"]
+{
+background-color: rgb(230, 218, 218);
+border: solid black 2px;
+width:100%
+}
