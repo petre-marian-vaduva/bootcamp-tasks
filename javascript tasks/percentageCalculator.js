@@ -28,3 +28,24 @@ function doesSomethingElse(x) {
 }
 doesSomethingElse(10)
 
+function drinkOrder(size, drink) {
+    let message = '';
+    switch (drink) {
+        case 'cola':
+            message = drink + ' is amazing! Thanks for ordering a ' + size + ' one!';
+            break;
+        case 'lemonade':
+            message = 'Well done! ' + drink + 'is so fresh! Grab a ' + size + ' one!';
+            break;
+        case 'orangeade':
+            message = 'Whatever, ' + size + ' ' + drink + ' coming up!';
+            break;
+        default:
+            message = 'I have no idea what you are talking about...';
+    }
+    console.log(message);
+}
+drinkOrder('small', 'lemonade');
+drinkOrder('large', 'cola');
+drinkOrder('extra large', 'orangeade');
+drinkOrder('extra large', 'red bull');
